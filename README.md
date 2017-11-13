@@ -36,7 +36,7 @@ Pull this package in through Composer (file `composer.json`).
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
-        "bican/roles": "2.1.*"
+        "peterleezz/roles": "2.1.*"
     }
 }
 ```
