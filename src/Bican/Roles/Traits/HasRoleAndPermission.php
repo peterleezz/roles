@@ -199,6 +199,7 @@ trait HasRoleAndPermission
      */
     public function can($permission, $all = false)
     {
+	if(is_string($all)) return parent::can($permission,$all);
         if ($this->isPretendEnabled()) {
             return $this->pretend('can');
         }
